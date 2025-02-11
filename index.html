@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="changeColor()">Change Color</button>
+    <p>welcome to java</p>
+    <button id="myButton">Click Me</button>
+    <p id="text">Hello</p>
+
+<script>
+    function changeColor() {
+    document.body.style.backgroundColor = "lightblue";
+}
+document.getElementById("myButton").addEventListener("click", function() {
+    document.getElementById("text").innerText = "Button Clicked!";
+});
+</script>
+
+
+</body>
+<script src="objects.js"></script>
+
+</html>
