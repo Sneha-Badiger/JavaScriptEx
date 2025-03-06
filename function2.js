@@ -40,3 +40,11 @@ let person = new Person("Vikah", 22);
 console.log(person.name);
 console.log(person.age);
 
+function chicken() {
+    return egg();
+  }
+  function egg() {
+    return chicken();
+  }
+  console.log(chicken() + " came first.");
+

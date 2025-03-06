@@ -1,10 +1,9 @@
-const str1 = new String("GeeksforGeeks");
-const str2 = "GeeksforGeeks";
+const str1 = new String("Sneha");
+const str2 = "Sneha";
 console.log(str1 == str2);
-console.log(str1 === str2);
 
 // Define a string variable 
-let A = 'Geeks for Geeks';
+let A = 'SnehaBadiger';
 // Use the slice() method to extract a substring
 let b = A.slice(0, 5);
 let c = A.slice(6, 9);
@@ -33,7 +32,7 @@ console.log(part);
 // Define a string variable
 let gfg = 'AKKu ';
 // Define another string variable 
-let geeks = 'akku-sneha';
+let geeks = 'akku-aks';
 // Convert the string 'geeks' to uppercase using the toUpperCase() method
 console.log(gfg.toUpperCase());
 console.log(gfg.toLowerCase());
@@ -63,3 +62,14 @@ const currentDate = new Date()
 // date object's string value
 const currentDate_String = currentDate.toString()
 console.log("Date Object's String Value: " + currentDate_String)
+
+
+let kim = "Kim";   // Step 1
+kim.age = 88;      // Step 2
+console.log(kim.age); // Step 3
+//kim is a string, which is a primitive value in JavaScript.
+//Primitive values (like strings, numbers, and booleans) are NOT objects.
+//Here, we're trying to attach a property (age = 88) to the string "Kim".
+//But strings (and other primitive values) can't store properties!
+
+
